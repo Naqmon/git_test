@@ -1,7 +1,13 @@
 #include <iostream>
 
+<<<<<<< HEAD
 double multiply(double x, double y){
 	return x*y;
+}
+=======
+void print(double x){
+	std::cout << x << "\n";
+>>>>>>> slave
 }
 
 double sqr(double x){
@@ -9,6 +15,6 @@ double sqr(double x){
 }
 
 int main(){
-	std::cout << "Hello, World\n";
+	print(sqr(3));
 	return 0;
 }
